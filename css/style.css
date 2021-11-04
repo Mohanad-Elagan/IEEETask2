@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-1 {
+    background-color: #fd4312;
+}
+
+.mySectionBtn {
+    width: 150px;
+    height: 50px;
+    line-height: 2.2;
+}
+
+.myIconTransparent {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    padding-top: 5px;
+    padding-left: 8px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+
+.myIconWhite {
+    display: inline-block;
+    /* height: 35px;
+    width: 35px; */
+    /* padding-top: 5px;
+    padding-left: 8px; */
+    border-radius: 50%;
+    /* background-color: white; */
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.myNavbarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-shadow: 1px 1px 3px black;
+    z-index: 100;
+}
+
+.myNavbarContainer .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: 0.2s;
+}
+
+.myNavbarContainer .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(228, 228, 228);
+}
+
+.myHeroContainer {
+    height: 100vh;
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myHeroContainer a {
+    background-color: #fd4312;
+    width: 150px;
+    height: 50px;
+    line-height: 2.2;
+    color: white;
+}
+
+.myHeroContainer a:hover {
+    color: white;
+    background-color: #b33c1b;
+}
+
+.myServicesContainer .row {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myServicesContainer .myServicesCards {
+    width: 90%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+}
+
+.myServicesContainer .myServicesCards.active {
+    background-color: #fd4312;
+    color: white;
+}
+
+.myAboutText {
+    margin-left: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.myDownloadContainer .myDownloadCarouselBackground {
+    background-color: #fd4312;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.myFooterContainer {
+    background-color: #fd4312;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 991.98px) {
+    .myServicesContainer .row {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .myFooterContainer .col-lg-2-4 {
+        width: 20%;
+    }
+}
